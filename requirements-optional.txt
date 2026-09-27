@@ -1,0 +1,12 @@
+# Optional extras for PitchTuna.
+# The core (file-based / offline analysis) works with only `numpy`.
+# Install these to unlock live microphone input and the graphical dial.
+#
+#   pip install -r requirements-optional.txt
+#
+
+# Live microphone capture (bundles PortAudio on Windows/macOS wheels).
+sounddevice>=0.4.6
+
+# Optional graphical, windowed tuner dial (--dial).
+pygame>=2.5.0

@@ -1,0 +1,3 @@
+# PitchTuna core runtime dependency.
+# NumPy powers the vectorized YIN / autocorrelation / HPS pitch engine.
+numpy>=1.21,<3.0
